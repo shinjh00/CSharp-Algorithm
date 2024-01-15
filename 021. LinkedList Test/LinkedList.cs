@@ -1,4 +1,4 @@
-﻿namespace _02._LinkedList_Test
+﻿namespace _021._LinkedList_Test
 {
     internal class LinkedList
     {

@@ -1,4 +1,4 @@
-﻿namespace _03._Stack
+﻿namespace _030._Stack
 {
     internal class Program
     {

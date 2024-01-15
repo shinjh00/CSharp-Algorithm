@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace _02._LinkedList_Test
+namespace _021._LinkedList_Test
 {
     internal class Josephus
     {

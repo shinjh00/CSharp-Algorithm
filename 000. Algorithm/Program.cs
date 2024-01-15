@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _00._Algorithm
+namespace _000._Algorithm
 {
     class Program
     {

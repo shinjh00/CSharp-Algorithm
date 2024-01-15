@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02._LinkedList
+namespace _020._LinkedList
 {
     internal class Iterator
     {

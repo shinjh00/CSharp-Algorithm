@@ -1,4 +1,4 @@
-﻿namespace _02._LinkedList
+﻿namespace _020._LinkedList
 {
     internal class Program
     {

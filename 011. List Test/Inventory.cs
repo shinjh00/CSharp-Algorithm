@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01._List_Test
+namespace _011._List_Test
 {
     internal class Inventory
     {

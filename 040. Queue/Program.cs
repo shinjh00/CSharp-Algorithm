@@ -1,4 +1,4 @@
-﻿namespace _04._Queue
+﻿namespace _040._Queue
 {
     internal class Program
     {
