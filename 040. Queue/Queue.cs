@@ -11,32 +11,32 @@ namespace DataStructure
         private const int DefaultCapacity = 4;
 
         private T[] array;
-        private int head;
-        private int tail;
+        private int front;
+        private int rear;
 
         public Queue()
         {
             array = new T[DefaultCapacity];
-            head = 0;
-            tail = 0;
+            front = 0;
+            rear = 0;
         }
 
         public int Count
         {
             get
             {
-                if (head <= tail)
-                    return tail - head;
+                if (front <= rear)
+                    return rear - front;
                 else
-                    return tail + (array.Length - head);
+                    return rear + (array.Length - front);
             }
         }
 
         public void Clear()
         {
             array = new T[DefaultCapacity];
-            head = 0;
-            tail = 0;
+            front = 0;
+            rear = 0;
         }
 
         public void Enqueue(T item)
@@ -46,8 +46,8 @@ namespace DataStructure
                 Grow();
             }
 
-            array[tail] = item;
-            MoveNext(ref tail);
+            array[rear] = item;
+            MoveNext(ref rear);
         }
 
         public T Dequeue()
@@ -55,8 +55,8 @@ namespace DataStructure
             if (IsEmpty())
                 throw new InvalidOperationException();
 
-            T result = array[head];
-            MoveNext(ref head);
+            T result = array[front];
+            MoveNext(ref front);
             return result;
         }
 
@@ -65,43 +65,43 @@ namespace DataStructure
             if (IsEmpty())
                 throw new InvalidOperationException();
 
-            return array[head];
+            return array[front];
         }
 
         private void Grow()
         {
             int newCapacity = array.Length * 2;
             T[] newArray = new T[newCapacity];
-            if (head < tail)
+            if (front < rear)
             {
-                Array.Copy(array, head, newArray, 0, tail);
+                Array.Copy(array, front, newArray, 0, rear);
             }
             else
             {
-                Array.Copy(array, head, newArray, 0, array.Length - head);
-                Array.Copy(array, 0, newArray, array.Length - head, tail);
+                Array.Copy(array, front, newArray, 0, array.Length - front);
+                Array.Copy(array, 0, newArray, array.Length - front, rear);
             }
 
             array = newArray;
-            tail = Count;
-            head = 0;
+            rear = Count;
+            front = 0;
         }
 
         private bool IsFull()
         {
-            if (head > tail)
+            if (front > rear)
             {
-                return head == tail + 1;
+                return front == rear + 1;
             }
             else
             {
-                return head == 0 && tail == array.Length - 1;
+                return front == 0 && rear == array.Length - 1;
             }
         }
 
         private bool IsEmpty()
         {
-            return head == tail;
+            return front == rear;
         }
 
         private void MoveNext(ref int index)

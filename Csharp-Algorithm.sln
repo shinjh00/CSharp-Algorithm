@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000. Algorithm", "000. Algorithm\000. Algorithm.csproj", "{5CC65405-8342-42D9-AC6A-1A85E1CAB2AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "000. Algorithm", "000. Algorithm\000. Algorithm.csproj", "{5CC65405-8342-42D9-AC6A-1A85E1CAB2AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010. List", "010. List\010. List.csproj", "{B9657AD2-99E7-4330-B0C3-969C02BCD653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010. List", "010. List\010. List.csproj", "{B9657AD2-99E7-4330-B0C3-969C02BCD653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011. List Test", "011. List Test\011. List Test.csproj", "{2FB5C2B8-22CD-459C-BA4B-CF395242AD28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011. List Test", "011. List Test\011. List Test.csproj", "{2FB5C2B8-22CD-459C-BA4B-CF395242AD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020. LinkedList", "020. LinkedList\020. LinkedList.csproj", "{A389B47E-5490-43D4-A17F-37DB22C98005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "020. LinkedList", "020. LinkedList\020. LinkedList.csproj", "{A389B47E-5490-43D4-A17F-37DB22C98005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021. LinkedList Test", "021. LinkedList Test\021. LinkedList Test.csproj", "{EB7EAB63-43FA-43C6-BD2B-30162FD95D3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "021. LinkedList Test", "021. LinkedList Test\021. LinkedList Test.csproj", "{EB7EAB63-43FA-43C6-BD2B-30162FD95D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030. Stack", "030. Stack\030. Stack.csproj", "{58C3D7C5-06BF-4460-923E-30D4DCD6D9FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "030. Stack", "030. Stack\030. Stack.csproj", "{58C3D7C5-06BF-4460-923E-30D4DCD6D9FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "040. Queue", "040. Queue\040. Queue.csproj", "{6757C0DA-88A3-4BEF-9100-7090AB3B2198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "040. Queue", "040. Queue\040. Queue.csproj", "{6757C0DA-88A3-4BEF-9100-7090AB3B2198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "041. Stack Queue Test", "041. Stack Queue Test\041. Stack Queue Test.csproj", "{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "041. Stack Queue Test", "041. Stack Queue Test\041. Stack Queue Test.csproj", "{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "050. BinarySearchTree", "050. BinarySearchTree\050. BinarySearchTree.csproj", "{B10C59ED-ADB8-46E5-A730-30E528B1733B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "051. BinarySearchTree Test", "051. BinarySearchTree Test\051. BinarySearchTree Test.csproj", "{5FEFD9D7-7974-4A13-A47D-DEC693576A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10C59ED-ADB8-46E5-A730-30E528B1733B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10C59ED-ADB8-46E5-A730-30E528B1733B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10C59ED-ADB8-46E5-A730-30E528B1733B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10C59ED-ADB8-46E5-A730-30E528B1733B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,7 +10,7 @@
          ******************************************************/
 
         // <스택 구현>
-        // 스택은 리스트를 사용법만 달리하여 구현 가능
+        // 스택은 리스트를 사용법만 달리하여 구현 가능 (= 어댑터 패턴)
         //
         // - 삽입 -
         //         top                      top
@@ -30,6 +30,9 @@
         // ex) 메뉴창에서 메뉴 선택 - 선택 - 뒤로 - 뒤로
         // Ctrl + Z, Ctrl + Y 같이
 
+        // stack.Push(i);       // i를 삽입
+        // stack.Peek();        // top 데이터 반환
+        // stack.Pop();         // top 데이터부터 삭제
 
         static void Main(string[] args)
         {
@@ -37,19 +40,19 @@
 
             for (int i = 0; i < 5; i++)
             {
-                stack.Push(i);                          // 입력순서 : 0, 1, 2, 3, 4
+                stack.Push(i);                          // 입력순서 : 0, 1, 2, 3, 4            스택 : 0, 1, 2, 3, 4
             }
 
             Console.WriteLine(stack.Peek());            // 최상단 : 4
 
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine(stack.Pop());         // 출력순서 : 4, 3, 2
+                Console.WriteLine(stack.Pop());         // 출력순서 : 4, 3, 2                  스택 : 0, 1
             }
 
             for (int i = 5; i < 10; i++)
             {
-                stack.Push(i);                          // 입력순서 : 5, 6, 7, 8, 9
+                stack.Push(i);                          // 입력순서 : 5, 6, 7, 8, 9            스택 : 0, 1, 5, 6, 7, 8, 9
             }
 
             while (stack.Count > 0)
