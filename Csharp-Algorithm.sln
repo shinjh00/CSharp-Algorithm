@@ -19,9 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "040. Queue", "040. Queue\04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "041. Stack Queue Test", "041. Stack Queue Test\041. Stack Queue Test.csproj", "{3B367C1B-3EA5-48F8-B746-D6CEDFF1DCB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "050. BinarySearchTree", "050. BinarySearchTree\050. BinarySearchTree.csproj", "{B10C59ED-ADB8-46E5-A730-30E528B1733B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "050. BinarySearchTree", "050. BinarySearchTree\050. BinarySearchTree.csproj", "{B10C59ED-ADB8-46E5-A730-30E528B1733B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "051. BinarySearchTree Test", "051. BinarySearchTree Test\051. BinarySearchTree Test.csproj", "{5FEFD9D7-7974-4A13-A47D-DEC693576A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "051. BinarySearchTree Test", "051. BinarySearchTree Test\051. BinarySearchTree Test.csproj", "{5FEFD9D7-7974-4A13-A47D-DEC693576A93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "060. Heap", "060. Heap\060. Heap.csproj", "{8078877F-B732-447A-B89B-CF797CCE8212}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "061. Heap Test", "061. Heap Test\061. Heap Test.csproj", "{C382CB3E-F90F-49AE-B76E-616DFE48CF23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "070. HashTable", "070. HashTable\070. HashTable.csproj", "{BA4A274F-7243-48CC-A119-034D03C17207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "071. HashTable Test", "071. HashTable Test\071. HashTable Test.csproj", "{8C747AC0-08EB-4DF4-8FEA-D214278581B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEFD9D7-7974-4A13-A47D-DEC693576A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8078877F-B732-447A-B89B-CF797CCE8212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8078877F-B732-447A-B89B-CF797CCE8212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8078877F-B732-447A-B89B-CF797CCE8212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8078877F-B732-447A-B89B-CF797CCE8212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C382CB3E-F90F-49AE-B76E-616DFE48CF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C382CB3E-F90F-49AE-B76E-616DFE48CF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C382CB3E-F90F-49AE-B76E-616DFE48CF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C382CB3E-F90F-49AE-B76E-616DFE48CF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4A274F-7243-48CC-A119-034D03C17207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4A274F-7243-48CC-A119-034D03C17207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4A274F-7243-48CC-A119-034D03C17207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4A274F-7243-48CC-A119-034D03C17207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C747AC0-08EB-4DF4-8FEA-D214278581B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C747AC0-08EB-4DF4-8FEA-D214278581B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C747AC0-08EB-4DF4-8FEA-D214278581B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C747AC0-08EB-4DF4-8FEA-D214278581B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
