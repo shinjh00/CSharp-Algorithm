@@ -21,23 +21,23 @@ namespace _010._List
 
             foreach (string item in list)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} [{list.IndexOf(item)}]");
             }
             Console.WriteLine();
 
 
             /* 리스트 삭제 */
-
-            bool success = list.Remove("중간 데이터 1에 추가");  // Remove()는 bool형
-            bool fail = list.Remove("중간 데이터 1에 추가");  // 없으면 무시하고 false 반환
+            
             list.RemoveAt(2);
             list.RemoveAt(list.Count - 1);  // 맨 마지막 데이터 삭제하기
 
+            bool success = list.Remove("중간 데이터 1에 추가");  // Remove()는 bool형
+            bool fail = list.Remove("중간 데이터 1에 추가");  // 없으면 무시하고 false 반환
             Console.WriteLine($"> success: {success}, fail: {fail}");
 
             foreach (string item in list)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} [{list.IndexOf(item)}]");
             }
             Console.WriteLine();
 
@@ -47,13 +47,13 @@ namespace _010._List
             list[0] = "수정된 0번째 데이터";
 
             string value = list[2];  // 2번째 데이터
+            Console.WriteLine($"> value: {value}");
 
             foreach (string item in list)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} [{list.IndexOf(item)}]");
             }
-
-            Console.WriteLine($"> value: {value}\n");
+            Console.WriteLine();
 
 
             /* 리스트 탐색 */
@@ -68,7 +68,8 @@ namespace _010._List
             /* 요소의 수 */
 
             int count = list.Count();
-            Console.WriteLine($"> count: {count}\n");
+
+            Console.WriteLine($"> count: {count}");
 
 
             /* 비우기 */
