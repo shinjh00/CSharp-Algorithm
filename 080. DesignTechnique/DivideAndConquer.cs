@@ -11,6 +11,7 @@ namespace _080._DesignTechnique
     {
         /* 분할 정복 */
         // 거듭 제곱 xⁿ
+        // 재귀함수를 통해 빨라질 수 있음
 
         static int Pow(int x, int n)
         {

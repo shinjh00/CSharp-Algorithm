@@ -10,6 +10,7 @@ namespace _080._DesignTechnique
     {
         /* 백 트래킹 */
         // 폴더 삭제
+        // 재귀함수를 통해 빨라질 수 있음
 
         void RemoveDir(Directory directory)
         {
