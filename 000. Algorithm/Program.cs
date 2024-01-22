@@ -4,7 +4,6 @@ namespace _000._Algorithm
 {
     class Program
     {
-
         /* Big-O 표기법 */
 
         // 연산 횟수
